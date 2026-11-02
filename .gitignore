@@ -1,0 +1,61 @@
+# ==========================================
+# HomeSync - Git ignore
+# ==========================================
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+**/target/
+*.class
+
+# Gradle, por si se incorpora en el futuro
+**/.gradle/
+
+# Build output
+**/build/
+**/out/
+
+# Logs
+*.log
+logs/
+
+# Spring local configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# Spring Boot generated files
+*.pid
+*.hprof
+
+# Eclipse / Spring Tool Suite
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
